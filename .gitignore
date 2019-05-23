@@ -1,9 +1,15 @@
+# Unity Folder Structure
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+
+# Unreal Folder Structure
+[Ss]aved/ 
+[Bb]inaries/
+[Ii]ntermediate/
 
 # Visual Studio cache directory
 .vs/
