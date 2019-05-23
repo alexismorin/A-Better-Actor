@@ -1,5 +1,5 @@
 # A Better Actor
-## An easily directable AI actor for Unreal & Unity sequences
+## An Easily Directable AI Actor for Unreal & Unity Sequences
 
 ![header](images/header.png)
 
