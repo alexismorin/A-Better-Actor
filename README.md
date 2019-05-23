@@ -7,6 +7,8 @@ While real-time engines offer a comparatively modern UX to older DCCs and conven
 
 With this engine agnostic package, you can now simply drop your actor (again, *acting* actor, not UE4 actor) into the scene, pipe in some audio & animations from your production database and in a fashion similar to how you would input commands in a game like [NetHack](https://nethackwiki.com/wiki/Commands) (or more relevantly, like you would shout on-set directions to an actor), simplify the directing process to its real-world essence: *walk here, shout that, bow*.
 
+___
+
 ### General Use
 
 Upon plugin install, three new prefabs/blueprints are available to you:
@@ -66,6 +68,7 @@ Your character set up, it's now only a question of adding them to your Timeline/
 
 ![unrealusage](images/unrealusage.gif)
 
+___
 
 ### Installation - Unity 2019.2.0b1
 
@@ -79,6 +82,7 @@ Installation
 
 ![header](images/plugins.png)
 
+___
 
 ### Acknowledgements & Thanks
 
