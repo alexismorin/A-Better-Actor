@@ -1,0 +1,16 @@
+{
+    "name": "com.alexismorin.abetteractor.editor",
+    "references": [
+        "GUID:98fccdde7eb65ef4c85939f41d9a03e1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
