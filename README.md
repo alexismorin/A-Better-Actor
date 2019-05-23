@@ -86,7 +86,7 @@ ___
 
 ### Acknowledgements & Thanks
 
-- [e→d films'](https://edfilms.net/) Daniel Gies for having a chat with me and pluging this plugin idea (haha) inside my head.
+- [e→d films](https://edfilms.net/)' Daniel Gies for having a chat with me and pluging this plugin (haha) idea inside my head.
 
 ### TODO
 
