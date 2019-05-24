@@ -1472,7 +1472,7 @@ MonoBehaviour:
     value: 1
   threshold:
     overrideState: 1
-    value: 0.5
+    value: 0.7
   softKnee:
     overrideState: 0
     value: 0.5
@@ -1527,11 +1527,11 @@ MonoBehaviour:
     overrideState: 0
     value: 8
   maximumMarchDistance:
-    overrideState: 0
+    overrideState: 1
     value: 100
   distanceFade:
-    overrideState: 0
-    value: 0.5
+    overrideState: 1
+    value: 0.331
   vignette:
-    overrideState: 0
-    value: 0.5
+    overrideState: 1
+    value: 0.642
