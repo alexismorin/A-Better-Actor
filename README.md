@@ -1,6 +1,8 @@
 # A Better Actor
 ## An Easily Directable AI Actor for Unreal & Unity Sequences
 
+## This repo is *not* yet ready and public only for sharing purposes.##
+
 ![header](images/header.png)
 
 While real-time engines offer a modern UX and convenient iteration times, directing actors (as in *acting* actors, not UE4 actors) in a cinematic context is still incredibly tedious, and modern real-time footage or games that offer "unparalleled cinematic experiences" often keep out-of-frame the clunky, barebones production experience that is matching animation clip offsets, tweaking sequencer timings and other fun bits of the virtual production process. If only there was a more streamlined, 1:1 way to do things?
@@ -87,13 +89,13 @@ ___
 ### Acknowledgements & Thanks
 
 - [e→d films](https://edfilms.net/)' Daniel Gies for having a chat with me and pluging this plugin (haha) idea inside my head.
+- [This always excellent piece of Unity documentation.](https://docs.unity3d.com/Manual/nav-CouplingAnimationAndNavigation.html)
 
 ### TODO
 
-- thing
-- thing
-- thing
+- Unity MVP
+- Unreal MVP
 
 Per usual, whipped up in a few hours - Try and enjoy in spite of the bugs.
 
-![unityusage](images/unityusage.gif)
+![unityusage](images/unityusage.png)
