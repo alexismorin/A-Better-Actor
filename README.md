@@ -96,6 +96,4 @@ ___
 - Unity MVP
 - Unreal MVP
 
-Per usual, whipped up in a few hours - Try and enjoy in spite of the bugs.
-
 ![unityusage](images/unityusage.png)
