@@ -1,7 +1,7 @@
 # A Better Actor
 ## An Easily Directable AI Actor for Unreal & Unity Sequences
 
-#### This repo is *not* yet ready and public only for sharing purposes.##
+#### This repo is *not* yet ready and public only for sharing purposes.
 
 ![header](images/header.png)
 
