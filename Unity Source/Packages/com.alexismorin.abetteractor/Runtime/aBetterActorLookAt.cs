@@ -36,7 +36,7 @@ public class aBetterActorLookAt : MonoBehaviour {
 
         float blendTime = lookAtTargetWeight > lookAtWeight ? lookAtHeatTime : lookAtCoolTime;
         lookAtWeight = Mathf.MoveTowards (lookAtWeight, lookAtTargetWeight, Time.deltaTime / blendTime);
-        animator.SetLookAtWeight (lookAtWeight, 0.6f, 0.80f, 0.7f, 0.8f);
+        animator.SetLookAtWeight (lookAtWeight, 0.3f, 0.75f, 0.7f, 0.7f);
         animator.SetLookAtPosition (lookAtPosition);
     }
 }

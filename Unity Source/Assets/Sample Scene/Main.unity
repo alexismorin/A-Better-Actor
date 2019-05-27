@@ -1092,6 +1092,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508007190}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &536226969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5039630335796635429, guid: 1e7753f229d254d4aa0e0c8847e56867,
+    type: 3}
+  m_PrefabInstance: {fileID: 3950131866082704259}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &586958979
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,7 +3143,9 @@ PlayableDirector:
   - key: {fileID: -8838158869912779034, guid: 13607f6ce02fd21498a1ee90810cb643, type: 2}
     value: {fileID: 2987297914999777243}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - cf1d551ce9040904e94581e2f79d9db3: {fileID: 536226969}
+    - 4f1bf5d3d988d6d4f9d9656b461e7aef: {fileID: 536226969}
 --- !u!4 &1242588014
 Transform:
   m_ObjectHideFlags: 0
@@ -5455,7 +5463,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 3950131866082704259}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 536226969}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}

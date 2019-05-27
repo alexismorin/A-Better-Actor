@@ -39,10 +39,12 @@ public class aBetterActorController : MonoBehaviour {
     Vector2 velocity = Vector2.zero;
     float defaultWalkVelocity;
     GameObject currentLookAtObject = null;
+    aBetterActorLookAt lookAtScript;
 
     // Core Methods
 
     void Start () {
+        lookAtScript = GetComponent<aBetterActorLookAt> ();
         agent = GetComponent<NavMeshAgent> ();
         anim = GetComponent<Animator> ();
         defaultWalkVelocity = agent.speed;
@@ -72,10 +74,11 @@ public class aBetterActorController : MonoBehaviour {
         anim.SetFloat ("horizontalVelocity", velocity.x);
         anim.SetFloat ("verticalVelocity", velocity.y);
 
+        if (currentLookAtObject != null) {
+            lookAtScript.lookAtTargetPosition = currentLookAtObject.transform.position;
+        }
         if (currentLookAtObject == null) {
-            GetComponent<aBetterActorLookAt> ().lookAtTargetPosition = agent.steeringTarget + transform.forward;
-        } else {
-            GetComponent<aBetterActorLookAt> ().lookAtTargetPosition = currentLookAtObject.transform.position;
+            lookAtScript.lookAtTargetPosition = agent.steeringTarget + transform.forward;
         }
 
     }
@@ -133,7 +136,6 @@ public class aBetterActorController : MonoBehaviour {
             CancelInvoke ("ClearLookAt");
             indexLook++;
             currentLookAtObject = lookAt[indexLook].gameObject;
-            print (currentLookAtObject.name);
             Invoke ("ClearLookAt", lookAtDuration);
         }
 
