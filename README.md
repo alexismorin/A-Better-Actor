@@ -7,7 +7,7 @@
 
 While real-time engines offer a modern UX and convenient iteration times, directing actors (as in *acting* actors, not UE4 actors) in a cinematic context is still incredibly tedious, and modern real-time footage or games that offer "unparalleled cinematic experiences" often keep out-of-frame the clunky, barebones production experience that is matching animation clip offsets, tweaking sequencer timings and other fun bits of the virtual production process. If only there was a more streamlined, 1:1 way to do things?
 
-With this engine agnostic package, you can now simply drop your actor (again, *acting* actor, not UE4 actor) into you game engine scene, pipe in some audio & animations from your production database and in a fashion similar to how you would input commands in a game like [NetHack](https://nethackwiki.com/wiki/Commands) (or more relevantly, like you would shout on-set directions to an actor), simplify the directing process to its real-world essence: *walk here, shout that, bow*.
+With this engine agnostic package, you can now simply drop your actor (again, *acting* actor, not UE4 actor) into your game engine scene, pipe in some audio & animations from your production database and in a fashion similar to how you would input commands in a game like [NetHack](https://nethackwiki.com/wiki/Commands) (or more relevantly, like you would shout on-set directions to an actor), simplify the directing process to its real-world essence: *walk here, shout that, bow*.
 
 ___
 
