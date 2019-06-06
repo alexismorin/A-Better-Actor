@@ -54,7 +54,7 @@ Your character set up, it's now only a question of adding them to your Timeline/
 - RUN:  The character will run to the next location listed in the *Locations* array.
 
 #### Dialogue
-- TALK: The character will say the next line in the *Lines* array, adjusting their gait accordingly.
+- TALK: The character will say the next line in the *Lines* array. This will also adjust the *volume* and *pitch* values at runtime so that you can instrument your own facial animation system.
 
 #### Body Language
 - POINT: The character will point to the next item in the *Point At* array, or the nearest point of interest if the array is empty.
