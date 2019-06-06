@@ -82,7 +82,7 @@ ___
 
 This is a plugin that makes use of Unity's *Package Manager* feature. Just drop the *com.alexismorin.abetteractor* folder (found in the *packages* folder of the Unity Source) into your own project's *packages* folder (found at the same level as your Assets folder) and it should work out-of-the-box. If you're using a pre-packman version of Unity (phew!), navigate inside the *com.alexismorin.abetteractor* folder and then just drag the *Editor* folder you find there anywhere in your project hierarchy.
 
-![header](images/packman.png)
+![packman](images/packman.png)
 
 Make sure you then also register *pointOfInterest* as a new tag in your tag manager.
 
@@ -90,7 +90,9 @@ Make sure you then also register *pointOfInterest* as a new tag in your tag mana
 
 #### The unreal version is *not* yet ready and visible here in the docs only because its easier to format down the road.
 
-![header](images/plugins.png)
+Just drag the *ABetterActor* folder from the *UnrealSource* folder's *Plugins* folder into your own project's *Plugins* folder (create it if you don't have one already) and open your project - things should work out by themselves.
+
+![plugins](images/plugins.png)
 
 ___
 
