@@ -84,11 +84,11 @@ This is a plugin that makes use of Unity's *Package Manager* feature. Just drop 
 
 ![header](images/packman.png)
 
-Make sure you then also register "pointOfInterest" as a new tag in your tag manager.
+Make sure you then also register *pointOfInterest* as a new tag in your tag manager.
 
 ### Installation - Unreal 4.22
 
-#### The unreal version is *not* yet ready and public here only for sharing purposes.
+#### The unreal version is *not* yet ready and visible here in the docs only because its easier to format down the road.
 
 ![header](images/plugins.png)
 
