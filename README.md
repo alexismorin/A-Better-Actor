@@ -15,6 +15,8 @@ ___
 
 ### General Use
 
+If you want a demo, simply navigate to the Package/Plugin root then open the sample scene inside of the *Sample Scene* folder (total braintwister, I know).
+
 Upon plugin install, three new prefabs/blueprints are available to you:
 - *A Better Actor* Character
 - *Actor Position Marker* Location Marker to direct where you actors will walk to.
@@ -46,7 +48,7 @@ After dropping the *A Better Actor* prefab/blueprint into the scene, you will ne
 
 ![setup](images/setup.png)
 
-If you're using (and realistically you're most probably doing that) a different Skeleton, you can simply duplicate and retarget the included *A Better Actor* [Unity Animator](https://docs.unity3d.com/Manual/Retargeting.html) or [Unreal Animation Blueprint](https://docs.unrealengine.com/en-us/Engine/Animation/RetargetingDifferentSkeletons) and associated animations to your new rig - Note that if you're missing some animations you can always use the royalty-free ones in the package! Pester me if 
+If you're using (and realistically you're most probably doing that) a different Skeleton, you can simply duplicate and retarget the included *A Better Actor* [Unity Animator](https://docs.unity3d.com/Manual/Retargeting.html) or [Unreal Animation Blueprint](https://docs.unrealengine.com/en-us/Engine/Animation/RetargetingDifferentSkeletons) and associated animations to your new rig - Note that if you're missing some animations you can always use the royalty-free ones in the package! Message me if you need more help setting things up.
 
 Your character set up, it's now only a question of adding them to your Timeline/Sequence, matching them to a Signal (Unity) or Event (Unreal) track and calling the events/signals below. While the plugin is easily extensible, these are the built-in ones included for your convenience:
 
