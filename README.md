@@ -9,6 +9,8 @@ While real-time engines offer a modern UX and convenient iteration times, direct
 
 With this engine agnostic package, you can now simply drop your actor (again, *acting* actor, not UE4 actor) into your game engine scene, pipe in some audio & animations from your production database and in a fashion similar to how you would input commands in a game like [NetHack](https://nethackwiki.com/wiki/Commands) (or more relevantly, like you would shout on-set directions to an actor), simplify the directing process to its real-world essence: *walk here, shout that, bow*.
 
+![example](images/example.png)
+
 ___
 
 ### General Use
