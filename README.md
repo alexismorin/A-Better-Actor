@@ -106,4 +106,7 @@ ___
 - Unity gait modifiers still need a little love
 - Unreal feature parity and MVP
 
+
+Per usual for me this was puked out in a matter of hours (with a trip to LA in between them so I can forget all my code) so beware of bugs (and scream at me if you find them).
+
 ![unityusage](images/unityusage.png)
