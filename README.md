@@ -67,7 +67,7 @@ Your character set up, it's now only a question of adding them to your Timeline/
 #### Gait Modifiers
 - SADDEN: The character will slouch a little and will act a little less lively.
 - BRIGHTEN: The character will have a little more pep in their step.
-- SCARE: The character will start shaking.
+- SCARE: The character will shrink a little.
 - NORMALIZE: The actor will return to a neutral state.
 
 #### Point of Interest Modifiers
