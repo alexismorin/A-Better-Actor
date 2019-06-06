@@ -98,8 +98,8 @@ ___
 
 ### Acknowledgements & Thanks
 
-- [e→d films](https://edfilms.net/)' Daniel Gies for having a chat with me and pluging this plugin (haha) idea inside my head.
-- [This always excellent piece of Unity documentation.](https://docs.unity3d.com/Manual/nav-CouplingAnimationAndNavigation.html)
+- [e→d films](https://edfilms.net/)' Daniel Gies for having a chat with me and plugging this plugin (haha) idea inside my head.
+- [This always excellent piece of Unity navmesh documentation.](https://docs.unity3d.com/Manual/nav-CouplingAnimationAndNavigation.html)
 
 ### TODO
 
