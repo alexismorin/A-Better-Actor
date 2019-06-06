@@ -104,6 +104,7 @@ ___
 ### TODO
 
 - Unity gait modifiers still need a little love
+- Unity menu option to apply all of the required components automatically to a skinnedmeshrenderer
 - Unreal feature parity and MVP
 
 
