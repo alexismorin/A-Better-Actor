@@ -103,6 +103,7 @@ ___
 
 ### TODO
 
-- Unreal MVP
+- Unity gait modifiers still need a little love
+- Unreal feature parity and MVP
 
 ![unityusage](images/unityusage.png)
