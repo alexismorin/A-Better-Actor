@@ -1,7 +1,7 @@
 # A Better Actor
 ## An Easily Directable AI Actor for Unreal & Unity Sequences
 
-#### The unreal version is *not* yet ready and public here only for sharing purposes.
+
 
 ![gif](images/gif.gif)
 
@@ -86,7 +86,7 @@ Make sure you then also register "pointOfInterest" as a new tag in your tag mana
 
 ### Installation - Unreal 4.22
 
-Installation
+#### The unreal version is *not* yet ready and public here only for sharing purposes.
 
 ![header](images/plugins.png)
 
