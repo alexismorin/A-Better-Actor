@@ -31,12 +31,12 @@ public class aBetterActorLookAt : MonoBehaviour {
         Vector3 curDir = lookAtPosition - head.position;
         Vector3 futDir = lookAtTargetPosition - head.position;
 
-        curDir = Vector3.RotateTowards (curDir, futDir, 6.28f * Time.deltaTime, float.PositiveInfinity);
+        curDir = Vector3.RotateTowards (curDir, futDir, 1.5f * Time.deltaTime, float.PositiveInfinity);
         lookAtPosition = head.position + curDir;
 
         float blendTime = lookAtTargetWeight > lookAtWeight ? lookAtHeatTime : lookAtCoolTime;
         lookAtWeight = Mathf.MoveTowards (lookAtWeight, lookAtTargetWeight, Time.deltaTime / blendTime);
-        animator.SetLookAtWeight (lookAtWeight, 0.3f, 0.75f, 0.7f, 0.7f);
+        animator.SetLookAtWeight (lookAtWeight, 0.2f, 0.75f, 0.75f, 0.7f);
         animator.SetLookAtPosition (lookAtPosition);
     }
 }
