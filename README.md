@@ -22,9 +22,9 @@ Upon plugin install, three new prefabs/blueprints are available to you:
 - *Actor Position Marker* Location Marker to direct where you actors will walk to.
 - *Actor Point of Interest* Point of interest your actor can look at or point at - By default actors are points of interest also.
 
-After dropping the *A Better Actor* prefab/blueprint into the scene, you will need to fill in the following variables for it to work properly:
+![unrealsetup](images/unrealsetup.png)
 
-- (Unreal Only) *Skeletal Mesh*: The skeletal mesh for your actor - assign this as you would for any other blueprint deriving from the character class.
+After dropping the *A Better Actor* prefab/blueprint into the scene, you will need to fill in the following variables for it to work properly:
 
 #### Stage Directions
 
@@ -76,7 +76,7 @@ Your character set up, it's now only a question of adding them to your Timeline/
 - MAKE BORING: The actor will stop being a point of interest. A good usecase for this is if you want an actor to point out a specific thing in a crowd.
 - MAKE INTERESTING: The actor will start being a point of interest.
 
-![unrealusage](images/unrealusage.gif)
+
 
 ___
 
@@ -96,6 +96,7 @@ Just drag the *ABetterActor* folder from the *UnrealSource* folder's *Plugins* f
 
 ![plugins](images/plugins.png)
 
+Make sure to assing the skeletal mesh for your actor - as you would for any other actor deriving from the character class.
 ___
 
 ### Acknowledgements & Thanks
