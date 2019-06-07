@@ -108,6 +108,7 @@ ___
 
 - Unity gait modifiers still need a little love
 - Unity menu option to apply all of the required components automatically to a skinnedmeshrenderer
+- Unreal has no inbuilt functional pitch recognition capabilities that survive packaging - I'll have to look into it some more but for now I added a dummy pitch and volume system that should be fine for cartoonish stuff.
 - Unreal feature parity and MVP
 
 

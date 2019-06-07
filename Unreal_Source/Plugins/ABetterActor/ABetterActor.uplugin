@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "A Better Actor",
+	"Description": "An Easily Directable AI Actor for Unreal Sequences",
+	"Category": "Animation",
+	"CreatedBy": "Alexis Morin",
+	"CreatedByURL": "https://github.com/alexismorin",
+	"DocsURL": "https://github.com/alexismorin/A-Better-Actor",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false
+}
